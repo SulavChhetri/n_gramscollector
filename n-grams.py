@@ -1,5 +1,5 @@
 import pandas as pd
-
+import json
 
 def ngramchecker(strings,n_grams):
     finallist = []
@@ -30,9 +30,12 @@ def main():
                     bigram_global.append(i)
                 else:
                     trigram_global.append(i)
-
+    with open("bigram.json",'w')as file:
+        json.dump(bigram_global,file)
+    
+    with open("trigram.json",'w')as file:
+        json.dump(trigram_global,file)
 
 main()
-print(bigram_global)
-print(trigram_global)
+
 

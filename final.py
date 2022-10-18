@@ -2,6 +2,17 @@ import pandas as pd
 import json
 import csv
 
+with open('./initial/stopwords.txt', 'r')as file:
+    lines = [line.rstrip('\n') for line in file]
+
+def stopwordsremover(sentence):
+    nostopword_sentence =list()
+    for item in sentence.split():
+        if not item.lower() in lines:
+            nostopword_sentence.append(item)
+    return nostopword_sentence
+
+
 def ngramchecker(strings,n_grams):
     finallist = []
     finalstring = ''
@@ -12,7 +23,10 @@ def ngramchecker(strings,n_grams):
     else:
         for x in range(n_grams_range): 
             for i in range(n_grams):  
-                finalstring =finalstring+' '+splitlist[x+i]
+                l =[]
+                for items in splitlist[x+i]:
+                    l.append(items.strip(',.?-&*()'))
+                finalstring =finalstring+' '+''.join(l)
             finallist.append(finalstring.lstrip())
             finalstring = ''
         return finallist
@@ -38,8 +52,9 @@ def main():
         writer.writerow(["Note","Topic"])
         for item in data:
             note = item.split("--")[0]
+            nostopword_note = ' '.join(stopwordsremover(note))
             for i in range(2,4):
-                n_gram = ngramchecker(note,i)
+                n_gram = ngramchecker(nostopword_note,i)
                 for item in n_gram:
                     if item in n_grams_40:
                         writer.writerow([f"{note}",f"{item}"])

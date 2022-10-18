@@ -1,33 +1,9 @@
 import pandas as pd
 import json
+from final import stopwordsremover,ngramchecker
 
 with open('stopwords.txt', 'r')as file:
     lines = [line.rstrip('\n') for line in file]
-
-def stopwordsremover(sentence):
-    nostopword_sentence =list()
-    for item in sentence.split():
-        if not item.lower() in lines:
-            nostopword_sentence.append(item)
-    return nostopword_sentence
-
-def ngramchecker(strings,n_grams):
-    finallist = []
-    finalstring = ''
-    splitlist = strings.split()
-    n_grams_range = len(splitlist)-n_grams+1
-    if (len(strings.split())<n_grams):
-        return [strings]
-    else:
-        for x in range(n_grams_range): 
-            for i in range(n_grams):
-                l =[]
-                for items in splitlist[x+i]:
-                    l.append(items.strip(',.?-&*()'))
-                finalstring =finalstring+' '+''.join(l)
-            finallist.append(finalstring.strip())
-            finalstring = ''
-        return finallist
 
 def takeSecond(elem):
     return elem[1]

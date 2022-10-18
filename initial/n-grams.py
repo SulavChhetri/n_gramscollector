@@ -15,6 +15,7 @@ def ngramchecker(strings,n_grams):
             finallist.append(finalstring.lstrip())
             finalstring = ''
         return finallist
+
 def takeSecond(elem):
     return elem[1]
 

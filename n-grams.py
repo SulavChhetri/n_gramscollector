@@ -15,12 +15,14 @@ def ngramchecker(strings,n_grams):
             finallist.append(finalstring.lstrip())
             finalstring = ''
         return finallist
+def takeSecond(elem):
+    return elem[1]
 
 bidict = {}
 tridict = {}
 def main():
-    bigram_global =[]
-    trigram_global =[]
+    bigram_global ={}
+    trigram_global ={}
     data = pd.read_csv('3_govt_urls_state_only.csv')
     data = data['Note']
     for item in data:
@@ -39,13 +41,13 @@ def main():
                     else:
                        tridict[i] =tridict[i]+1
 
-    for key in bidict.keys():
-        if bidict[key]>15:
-            bigram_global.append(key)
-
-    for key in tridict.keys():
-        if tridict[key]>8:
-            trigram_global.append(key)
+    templist1 = sorted(bidict.items(),key=takeSecond,reverse=True)[:20]
+    templist2 = sorted(tridict.items(),key=takeSecond,reverse=True)[:20]
+    for item in templist1:
+        bigram_global[item[0]]=item[1]
+    
+    for item in templist2:
+        trigram_global[item[0]]=item[1]
 
     with open("bigram.json",'w')as file:
         json.dump(bigram_global,file)

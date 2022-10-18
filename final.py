@@ -22,31 +22,28 @@ def main():
         bigram_20 = json.load(file)
     with open("./initial/trigram.json",'r') as file:
         trigram_20 =json.load(file)
-    
+        
+    n_grams_40 = list()
+    for items in bigram_20.keys():
+        n_grams_40.append(items)
+
+    for items in trigram_20.keys():
+        n_grams_40.append(items)
+
     data = pd.read_csv('3_govt_urls_state_only.csv')
     data = data['Note']
     
-    with open('bi_output.csv','w', encoding='UTF8') as file:
+    with open('n_output.csv','w', encoding='UTF8') as file:
         writer = csv.writer(file)
         writer.writerow(["Note","Topic"])
         for item in data:
             note = item.split("--")[0]
-            n_gram = ngramchecker(note,2)
-            for item in n_gram:
-                if item in bigram_20.keys():
-                    writer.writerow([f"{note}",f"{item}"])
-    
-    with open('tri_output.csv','w', encoding='UTF8') as file:
-        writer = csv.writer(file)
-        writer.writerow(["Note","Topic"])
-        for item in data:
-            note = item.split("--")[0]
-            n_gram = ngramchecker(note,3)
-            for item in n_gram:
-                if item in trigram_20.keys():
-                    writer.writerow([f"{note}",f"{item}"])
+            for i in range(2,4):
+                n_gram = ngramchecker(note,i)
+                for item in n_gram:
+                    if item in n_grams_40:
+                        writer.writerow([f"{note}",f"{item}"])
                     
-
 
 
 main()

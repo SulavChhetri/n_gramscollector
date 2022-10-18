@@ -16,9 +16,11 @@ def ngramchecker(strings,n_grams):
             finalstring = ''
         return finallist
 
-bigram_global =[]
-trigram_global =[]
+bidict = {}
+tridict = {}
 def main():
+    bigram_global =[]
+    trigram_global =[]
     data = pd.read_csv('3_govt_urls_state_only.csv')
     data = data['Note']
     for item in data:
@@ -27,9 +29,24 @@ def main():
             n_gram = ngramchecker(note,number)
             for i in n_gram:
                 if number==2:
-                    bigram_global.append(i)
+                    if i not in bidict.keys():
+                        bidict[i]=1
+                    else:
+                       bidict[i] =bidict[i]+1
                 else:
-                    trigram_global.append(i)
+                    if i not in tridict.keys():
+                        tridict[i]=1
+                    else:
+                       tridict[i] =tridict[i]+1
+
+    for key in bidict.keys():
+        if bidict[key]>15:
+            bigram_global.append(key)
+
+    for key in tridict.keys():
+        if tridict[key]>8:
+            trigram_global.append(key)
+
     with open("bigram.json",'w')as file:
         json.dump(bigram_global,file)
     

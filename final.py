@@ -22,7 +22,7 @@ def main():
         bigram_20 = json.load(file)
     with open("./initial/trigram.json",'r') as file:
         trigram_20 =json.load(file)
-        
+
     n_grams_40 = list()
     for items in bigram_20.keys():
         n_grams_40.append(items)
@@ -30,7 +30,7 @@ def main():
     for items in trigram_20.keys():
         n_grams_40.append(items)
 
-    data = pd.read_csv('3_govt_urls_state_only.csv')
+    data = pd.read_csv('./initial/3_govt_urls_state_only.csv')
     data = data['Note']
     
     with open('n_output.csv','w', encoding='UTF8') as file:

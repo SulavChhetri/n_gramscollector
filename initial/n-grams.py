@@ -10,9 +10,9 @@ def ngramchecker(strings,n_grams):
         return [strings]
     else:
         for x in range(n_grams_range): 
-            for i in range(n_grams):  
+            for i in range(n_grams):
                 finalstring =finalstring+' '+splitlist[x+i]
-            finallist.append(finalstring.lstrip())
+            finallist.append(finalstring.strip(" ?.-,"))
             finalstring = ''
         return finallist
 

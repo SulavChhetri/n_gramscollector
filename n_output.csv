@@ -46,11 +46,12 @@ Topic,State,Note
 ['Department Education'],Florida,Florida Department of Education 
 ['National Guard'],Florida,Florida National Guard Counterdrug.  n   Florida Counterdrup Program - Under this authority our office provides oversight of the FLARNG and FLANG Substance Abuse Prevention Programs.      
 ['Public Health'],Florida,"Florida Environmental Public Health Tracking, Florida Department of Health This web portal was supported by Cooperative Agreement Number 5U38EH000941 from the Centers for Disease Control and Prevention. Its contents are solely the responsibility of the authors (FL Tracking Team) and do not necessarily represent the official views of the Centers for Disease Control and Prevention. "
+"['Department Agriculture Consumer', 'Agriculture Consumer Services']",Florida,Florida Department of Agriculture and Consumer Services 
 ['National Guard'],Georgia,Georgia National Guard 
 ['Department Education'],Georgia,State of Georgia Department of Education 
 "['Department Education', 'State Board']",Mississippi,"GEAR UP Mississippi operates as part of the Institutions of Higher Learning, Office of Academic and Student Affairs in collaboration with the Mississippi Department of Education, State Board for Community and Junior Colleges and community and national partners. Funding is provided by the United States Department of Education. "
 "['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",Hawaii,"Hawaii Tourism Authority, Travel and Tourism Site for Hawaii "
-"['Carolina Department', 'North Carolina Department']",North Carolina,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services "
+"['Carolina Department', 'North Carolina Department', 'Department Agriculture Consumer', 'Agriculture Consumer Services']",North Carolina,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services "
 ['Department Education'],Hawaii,Hawaii State Department of Education 
 ['National Guard'],Idaho,Idaho Army National Guard 
 "['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",New York,Travel and Tourism Site for New York 
@@ -86,7 +87,7 @@ Topic,State,Note
 ['State University Extension'],Mississippi,Mississippi State University Extension 
 ['State University Extension'],Michigan,Michigan State University Extension 
 ['State University Extension'],Montana,Montana State University Extension 
-"['Carolina Department', 'North Carolina Department']",North Carolina,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services "
+"['Carolina Department', 'North Carolina Department', 'Department Agriculture Consumer', 'Agriculture Consumer Services']",North Carolina,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services "
 ['North Carolina Division'],North Carolina,North Carolina Division of Air Quality 
 ['North Carolina Board'],North Carolina,North Carolina Board of Architecture 
 ['North Carolina Board'],North Carolina,North Carolina Board of Dietetics/Nutrition   
@@ -102,9 +103,9 @@ Topic,State,Note
 "['State Board', 'North Carolina State']",North Carolina,North Carolina State Board of Dental Examiners 
 "['Carolina Department', 'North Carolina Department']",North Carolina,North Carolina Department of Insurance 
 ['North Carolina Office'],North Carolina,The North Carolina Office of EMS 
-"['Carolina Department', 'North Carolina Department']",North Carolina,"NC Farm to School program, North Carolina Department of Agriculture and Consumer Services "
+"['Carolina Department', 'North Carolina Department', 'Department Agriculture Consumer', 'Agriculture Consumer Services']",North Carolina,"NC Farm to School program, North Carolina Department of Agriculture and Consumer Services "
 ['State North Carolina'],North Carolina,State of North Carolina 
-"['NC Department', 'Department Public', 'NC Department Public']",North Carolina,"Governor's School of North Carolina, NC Department of Public Instruction "
+"['NC Department', 'Department Public']",North Carolina,"Governor's School of North Carolina, NC Department of Public Instruction "
 "['State Board', 'Board Examiners', 'North Carolina State', 'State Board Examiners']",North Carolina,"North Carolina State Board of Examiners of Plumbing, Heating and Fire Sprinkler Contractors "
 "['State North Carolina', 'North Carolina Office']",North Carolina,State of North Carolina Office of Information Technology Services 
 "['NC Department', 'Department Cultural Resources']",North Carolina,"North Carolina Highway Historical Marker Program, NC Department of Cultural Resources "
@@ -114,7 +115,7 @@ Topic,State,Note
 ['North Carolina Board'],North Carolina,The North Carolina Board of Physical Therapy Examiners 
 "['North Carolina Office', 'Department Cultural Resources']",North Carolina,"Historical Publications, North Carolina Office of Archives and History, Department of Cultural Resources -¬†www.ncpublications.com "
 "['Public Health', 'North Carolina Division', 'Division Public Health']",North Carolina,North Carolina Division of Public Health 
-"['NC Department', 'Department Public', 'Public Health', 'NC Department Public']",North Carolina,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health "
+"['NC Department', 'Department Public', 'Public Health']",North Carolina,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health "
 "['Carolina Department', 'Department Public', 'North Carolina State', 'North Carolina Department']",North Carolina,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). 
 ['State North Carolina'],North Carolina,State of North Carolina Japan Office 
 "['Carolina Department', 'North Carolina Department']",North Carolina,North Carolina Department of State Treasurer 
@@ -148,14 +149,14 @@ Topic,State,Note
 ['Development Authority'],South Dakota,South Dakota Housing Development Authority 
 ['Department Transportation'],Arizona,"Authorized Service Website for the Arizona Department of Transportation, Motor Vehicle Division "
 ['North Carolina State'],North Carolina,North Carolina State Health Plan for Teachers and State Employees 
-"['York State', 'New York State']",Pennsylvania,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. "
-"['state agencies', 'state agencies at']",Alaska,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  "
-"['state agencies', 'state agencies at']",Alabama,"*state.al.us pattern to include Alabama state agencies, such as those at: https://www.google.com/#q=site:state.al.us  "
+"['York State', 'New York State']",New York,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. "
+['state agencies'],Alaska,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  "
+['state agencies'],Alabama,"*state.al.us pattern to include Alabama state agencies, such as those at: https://www.google.com/#q=site:state.al.us  "
 ['state agencies'],Arizona,"*state.az.us pattern to include Arizona state agencies, such as those at https://www.google.com/#q=site:state.az.us.  "
-"['state agencies', 'state agencies at']",California,"*state.ca.us pattern to include California state agencies, such as those at: https://www.google.com/#q=site:state.ca.us  "
-"['state agencies', 'state agencies at']",Florida,"*state.fl.us pattern to include Florida state agencies, such as those at: https://www.google.com/#q=site:state.fl.us   "
+['state agencies'],California,"*state.ca.us pattern to include California state agencies, such as those at: https://www.google.com/#q=site:state.ca.us  "
+['state agencies'],Florida,"*state.fl.us pattern to include Florida state agencies, such as those at: https://www.google.com/#q=site:state.fl.us   "
 ['state agencies'],Maryland,"State website is at http://www.maryland.gov. state.md.us pattern to include Maryland state agencies, such as those at https://www.google.com/#q=site:state.md.us. "
-"['state agencies', 'state agencies at']",New Jersey,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  "
+['state agencies'],New Jersey,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  "
 ['National Guard'],Tennessee,Tennessee National Guard 
 "['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",Alaska,Travel and Tourism Site for Alaska 
 "['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",Iowa,Travel and Tourism Site for Iowa 
@@ -176,7 +177,7 @@ Topic,State,Note
 ['Virginia Department'],Virginia,Virginia Department for the Blind and Vision Impaired 
 ['Virginia Department'],Virginia,Virginia Department for the Deaf and Hard of Hearing (VDDHH) 
 ['Development Authority'],Virginia,Virginia Housing Development Authority 
-['Virginia Department'],Virginia,The Virginia Horse Industry Board is responsible for the promotion and economic development of the horse industry in Virginia and operates through the Virginia Department of Agriculture and Consumer Services. 
+"['Virginia Department', 'Department Agriculture Consumer', 'Agriculture Consumer Services']",Virginia,The Virginia Horse Industry Board is responsible for the promotion and economic development of the horse industry in Virginia and operates through the Virginia Department of Agriculture and Consumer Services. 
 ['Department Education'],Virgin Islands,Virgin Islands Department of Education 
 "['Travel Tourism', 'Tourism Sites', 'Travel Tourism Sites']",Virginia,Travel and Tourism Sites for Virginia 
 ['Economic Development'],Virginia,Virginia Economic Development Partnership's Ally Information Exchange 
@@ -210,12 +211,12 @@ Topic,State,Note
 ['Washington State'],Washington,Washington State Commission on Pesticide Registration 
 ['Washington State'],Washington,Washington State Housing Finance Commission 
 ['Washington State'],Washington,Washington State School for the Blind 
-['Virginia Department'],Virginia,West Virginia Department of Agriculture 
-['Virginia Department'],Virginia,West Virginia Department of Commerce 
-"['Virginia Department', 'Department Health Human']",Virginia,West Virginia Department of Health and Human Resources 
-['Virginia Department'],Virginia,"West Virginia Department of Commerce, Division of Labor "
-"['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",Virginia,Travel and Tourism Site for West Virginia 
-['Development Authority'],Virginia,West Virginia Water Development Authority 
+['Virginia Department'],West Virginia,West Virginia Department of Agriculture 
+['Virginia Department'],West Virginia,West Virginia Department of Commerce 
+"['Virginia Department', 'Department Health Human']",West Virginia,West Virginia Department of Health and Human Resources 
+['Virginia Department'],West Virginia,"West Virginia Department of Commerce, Division of Labor "
+"['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",West Virginia,Travel and Tourism Site for West Virginia 
+['Development Authority'],West Virginia,West Virginia Water Development Authority 
 ['National Guard'],Montana,Montana Army National Guard 
 "['Travel Tourism', 'Tourism Site', 'Travel Tourism Site']",Wyoming,Travel and Tourism Site for Wyoming 
 ['Economic Development'],Virginia,"Virginia Economic Development Partnership. As a state authority, the Partnership is governed by a 25 member http://yesvirginia.org/AboutUs/BoardOfDirectors Board Of Directors comprised of businesspersons from around Virginia, each of whom is appointed by the http://www.governor.virginia.gov Governor and the General Assembly.  "

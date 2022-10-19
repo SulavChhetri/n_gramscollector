@@ -18,11 +18,14 @@ for item in statedict:
 
 
 def stateExtracter(note):
-    for i in range(1,4):
+    i = 3
+    while i>0:
         x= ngramcreator(note,i)
         for item in x:
             if item in statelist:
                 return item
+        i-=1
+                
 
 def takeSecond(elem):
     return elem[1]
@@ -34,20 +37,26 @@ def stopwordsremover(sentence):
             nostopword_sentence.append(item)
     return nostopword_sentence
 
+def remove_punctuation(sentence):
+    punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+    finalsentence=" "
+    for item in sentence:
+        if item not in punc:
+            finalsentence+=item
+    return finalsentence.strip()
+
+
 def ngramcreator(strings,n_grams):
     finallist = []
-    splitlist = strings.split()
+    splitlist = remove_punctuation(strings).split()
     n_grams_range = len(splitlist)-n_grams+1
     if (len(splitlist)<n_grams):
-        return [strings]
+        return [remove_punctuation(strings)]
     else:
         for x in range(n_grams_range):
             finalstring = '' 
             for i in range(n_grams):  
-                l =[]
-                for items in splitlist[x+i]:
-                    l.append(items.strip(',.?-&*():'))
-                finalstring =finalstring+' '+''.join(l)
+                finalstring =finalstring+' '+splitlist[x+i]
             finallist.append(finalstring.lstrip())
         return finallist
 

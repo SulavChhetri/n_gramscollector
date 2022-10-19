@@ -2,6 +2,7 @@ import pandas as pd
 import csv
 from collections import defaultdict
 import json
+from collections import defaultdict
 
 n_grams_40 = []
 statelist= []
@@ -103,45 +104,29 @@ def main():
     n_grams()
     data = pd.read_csv('./files/3_govt_urls_state_only.csv')
     data = data['Note']
-    notelist = []
-    key=[]
-    keylist={}
+    keylist= defaultdict(list)
     for item in data:
         note = item.split("--")[0]
         nostopword_note = ' '.join(stopwordsremover(note))
         state = stateExtracter(nostopword_note)
         if state!=None:
-            if note in notelist:
-                    n_gram = ngramcreator(nostopword_note,2)
-                    for item in n_gram:
-                        if item in n_grams_40:
-                            if note not in notelist:
-                                key.append(item)
-                                notelist.append(note)
-                                print(key)
-                                print(notelist)
-                                keylist[tuple(key)]=note
-                                key=[]
-                                print(keylist)
-                            else:
-                                notNotelist(nostopword_note,note,keylist)
-            else:
-                notNotelist(nostopword_note,note,keylist)
+            for item in data:
+                note = item.split("--")[0]
+                nostopword_note = ' '.join(stopwordsremover(note))
+                state = stateExtracter(nostopword_note)
+                if state!=None:
+                    for i in range(2,4):
+                        n_gram = ngramcreator(nostopword_note,i)
+                        for item in n_gram:
+                            if item in n_grams_40:
+                                if item not in keylist[note]:
+                                    keylist[note].append(item)
 
-
-    # with open('n_output.csv','w', encoding='UTF8') as file:
-    #     writer = csv.writer(file)
-    #     writer.writerow(["Topic","State","Note"])
-    #     for item in data:
-    #         note = item.split("--")[0]
-    #         nostopword_note = ' '.join(stopwordsremover(note))
-    #         state = stateExtracter(nostopword_note)
-    #         if state!=None:
-    #             for i in range(2,4):
-    #                 n_gram = ngramcreator(nostopword_note,i)
-    #                 for item in n_gram:
-    #                     if item in n_grams_40:
-    #                         writer.writerow([f"{item}",f"{state}",f"{note}"])
+    with open('n_output.csv','w', encoding='UTF8') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Topic","State","Note"])
+        for key in keylist.keys():
+            writer.writerow([f"{keylist[key]}",f"{state}",f"{key}"])
 
 
 main()

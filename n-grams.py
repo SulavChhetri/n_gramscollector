@@ -15,6 +15,13 @@ with open('./files/states.json')as file:
 for item in statedict:
     statelist.append(item['State'])
 
+def stateExtracter(note):
+    for i in range(1,4):
+        x= ngramcreator(note,i)
+        for item in x:
+            if item in statelist:
+                return item
+
 def takeSecond(elem):
     return elem[1]
 
@@ -75,7 +82,7 @@ def main():
     
     with open('n_output.csv','w', encoding='UTF8') as file:
         writer = csv.writer(file)
-        writer.writerow(["Topic","Note"])
+        writer.writerow(["Topic","State","Note"])
         for item in data:
             note = item.split("--")[0]
             nostopword_note = ' '.join(stopwordsremover(note))
@@ -83,7 +90,7 @@ def main():
                 n_gram = ngramcreator(nostopword_note,i)
                 for item in n_gram:
                     if item in n_grams_40:
-                        writer.writerow([f"{item}",f"{note}"])
+                        writer.writerow([f"{item}",f"{stateExtracter(nostopword_note)}",f"{note}"])
 
 
 main()

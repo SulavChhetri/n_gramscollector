@@ -36,20 +36,19 @@ def stopwordsremover(sentence):
 
 def ngramcreator(strings,n_grams):
     finallist = []
-    finalstring = ''
     splitlist = strings.split()
     n_grams_range = len(splitlist)-n_grams+1
-    if (len(strings.split())<n_grams):
+    if (len(splitlist)<n_grams):
         return [strings]
     else:
-        for x in range(n_grams_range): 
+        for x in range(n_grams_range):
+            finalstring = '' 
             for i in range(n_grams):  
                 l =[]
                 for items in splitlist[x+i]:
                     l.append(items.strip(',.?-&*():'))
                 finalstring =finalstring+' '+''.join(l)
             finallist.append(finalstring.lstrip())
-            finalstring = ''
         return finallist
 
 def n_grams():

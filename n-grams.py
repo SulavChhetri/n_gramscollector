@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 from collections import defaultdict
 import json
-from collections import defaultdict
+
 
 n_grams_40 = []
 statelist= []

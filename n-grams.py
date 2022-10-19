@@ -16,7 +16,7 @@ def stopwordsremover(sentence):
             nostopword_sentence.append(item)
     return nostopword_sentence
 
-def ngramchecker(strings,n_grams):
+def ngramcreator(strings,n_grams):
     finallist = []
     finalstring = ''
     splitlist = strings.split()
@@ -45,7 +45,7 @@ def n_grams():
         note = item.split("--")[0]
         nostopword_note = ' '.join(stopwordsremover(note))
         for number in range(2,4):
-            n_gram = ngramchecker(nostopword_note,number)
+            n_gram = ngramcreator(nostopword_note,number)
             for i in n_gram:
                 if number==2:
                     if i not in bidict.keys():
@@ -85,7 +85,7 @@ def main():
             note = item.split("--")[0]
             nostopword_note = ' '.join(stopwordsremover(note))
             for i in range(2,4):
-                n_gram = ngramchecker(nostopword_note,i)
+                n_gram = ngramcreator(nostopword_note,i)
                 for item in n_gram:
                     if item in n_grams_40:
                         writer.writerow([f"{item}",f"{note}"])

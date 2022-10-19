@@ -86,11 +86,13 @@ def main():
         for item in data:
             note = item.split("--")[0]
             nostopword_note = ' '.join(stopwordsremover(note))
-            for i in range(2,4):
-                n_gram = ngramcreator(nostopword_note,i)
-                for item in n_gram:
-                    if item in n_grams_40:
-                        writer.writerow([f"{item}",f"{stateExtracter(nostopword_note)}",f"{note}"])
+            state = stateExtracter(nostopword_note)
+            if state!=None:
+                for i in range(2,4):
+                    n_gram = ngramcreator(nostopword_note,i)
+                    for item in n_gram:
+                        if item in n_grams_40:
+                            writer.writerow([f"{item}",f"{state}",f"{note}"])
 
 
 main()

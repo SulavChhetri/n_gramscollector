@@ -19,9 +19,6 @@ Travel Tourism Site,Alabama,Travel and Tourism Site for Alabama
 National Guard,Alabama,Alabama National Guard Counterdrug Program 
 State Board,Alabama,Alabama State Board of Medical Examiners (an administrative and regulatory agency of the state of Alabama) and the Medical Licensure Commission of Alabama 
 Department Education,Alabama,Alabama State Department of Education 
-Travel Tourism,None,Travel and Tourism Site for American Samoa 
-Tourism Site,None,Travel and Tourism Site for American Samoa 
-Travel Tourism Site,None,Travel and Tourism Site for American Samoa 
 National Guard,Arkansas,Arkansas National Guard 
 Travel Tourism,Arizona,Travel and Tourism Site for Arizona 
 Tourism Site,Arizona,Travel and Tourism Site for Arizona 
@@ -55,7 +52,6 @@ Travel Tourism,Connecticut,Travel and Tourism Site for Connecticut
 Tourism Site,Connecticut,Travel and Tourism Site for Connecticut 
 Travel Tourism Site,Connecticut,Travel and Tourism Site for Connecticut 
 National Guard,Delaware,Delaware National Guard 
-NC Department,None,"Division of Employment Security (DES), NC Department of Commerce (NCC) "
 Travel Tourism,Ohio,Travel and Tourism Site for Ohio 
 Tourism Site,Ohio,Travel and Tourism Site for Ohio 
 Travel Tourism Site,Ohio,Travel and Tourism Site for Ohio 
@@ -63,7 +59,6 @@ Travel Tourism,South Carolina,Travel and Tourism Site for South Carolina
 Tourism Site,South Carolina,Travel and Tourism Site for South Carolina 
 Travel Tourism Site,South Carolina,Travel and Tourism Site for South Carolina 
 Virginia Department,Virginia,Virginia Department of Motor Vehicles 
-Department Education,None,American Samoa Department of Education 
 Carolina Department,North Carolina,"Driving95 Corridor Planning and Finance Study website, North Carolina Department of Transportation (NCDOT) "
 Department Transportation,North Carolina,"Driving95 Corridor Planning and Finance Study website, North Carolina Department of Transportation (NCDOT) "
 North Carolina Department,North Carolina,"Driving95 Corridor Planning and Finance Study website, North Carolina Department of Transportation (NCDOT) "
@@ -91,21 +86,16 @@ Department Education,Georgia,State of Georgia Department of Education
 Department Education,Mississippi,"GEAR UP Mississippi operates as part of the Institutions of Higher Learning, Office of Academic and Student Affairs in collaboration with the Mississippi Department of Education, State Board for Community and Junior Colleges and community and national partners. Funding is provided by the United States Department of Education. "
 State Board,Mississippi,"GEAR UP Mississippi operates as part of the Institutions of Higher Learning, Office of Academic and Student Affairs in collaboration with the Mississippi Department of Education, State Board for Community and Junior Colleges and community and national partners. Funding is provided by the United States Department of Education. "
 Department Education,Mississippi,"GEAR UP Mississippi operates as part of the Institutions of Higher Learning, Office of Academic and Student Affairs in collaboration with the Mississippi Department of Education, State Board for Community and Junior Colleges and community and national partners. Funding is provided by the United States Department of Education. "
-National Guard,None,Lousiana National Guard 
 Travel Tourism,Hawaii,"Hawaii Tourism Authority, Travel and Tourism Site for Hawaii "
 Tourism Site,Hawaii,"Hawaii Tourism Authority, Travel and Tourism Site for Hawaii "
 Travel Tourism Site,Hawaii,"Hawaii Tourism Authority, Travel and Tourism Site for Hawaii "
 Carolina Department,North Carolina,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services "
 North Carolina Department,North Carolina,"Got to Be NC Agriculture, Goodness Grows in NC, North Carolina Department of Agriculture & Consumer Services "
-NC Department,None,"Got To Be NC Festival, a production of the NC Department of Agriculture "
 Department Education,Hawaii,Hawaii State Department of Education 
 National Guard,Idaho,Idaho Army National Guard 
 Travel Tourism,New York,Travel and Tourism Site for New York 
 Tourism Site,New York,Travel and Tourism Site for New York 
 Travel Tourism Site,New York,Travel and Tourism Site for New York 
-Economic Development,None,Guam Economic Development Authority (GEDA) web site. GEDA is an autonomous agency of the Government of Guam and a Guam public corporation. 
-Development Authority,None,Guam Economic Development Authority (GEDA) web site. GEDA is an autonomous agency of the Government of Guam and a Guam public corporation. 
-Economic Development Authority,None,Guam Economic Development Authority (GEDA) web site. GEDA is an autonomous agency of the Government of Guam and a Guam public corporation. 
 Economic Development,Iowa,Iowa Economic Development Authority 
 Development Authority,Iowa,Iowa Economic Development Authority 
 Economic Development Authority,Iowa,Iowa Economic Development Authority 
@@ -122,7 +112,6 @@ Travel Tourism Site,Kentucky,Travel and Tourism Site for Kentucky
 State Board,Kansas,Kansas State Board of Healing Arts 
 State Board,Kansas,Kansas State Board of Nursing 
 Department Transportation,Kansas,Kansas Department of Transportation 
-Board Examiners,None,LA Board of Examiners of Nursing Facility Administrators 
 State Board,Louisiana,Louisiana State Board of Social Work Examiners 
 Louisiana State Board,Louisiana,Louisiana State Board of Social Work Examiners 
 State Board,Louisiana, Louisiana State Board of Chiropractic Examiners 
@@ -136,8 +125,6 @@ Development Authority,Louisiana,Louisiana Community Development Authority
 Travel Tourism,Louisiana,Travel and Tourism Site for Louisiana 
 Tourism Site,Louisiana,Travel and Tourism Site for Louisiana 
 Travel Tourism Site,Louisiana,Travel and Tourism Site for Louisiana 
-Board Examiners,None,Licensed Professional Counselors Board of Examiners 
-Board Examiners,None,LLPVRC Board of Examiners 
 State Board,Louisiana,Louisiana State Board of Examiners of Psychologists   
 Board Examiners,Louisiana,Louisiana State Board of Examiners of Psychologists   
 Louisiana State Board,Louisiana,Louisiana State Board of Examiners of Psychologists   
@@ -167,33 +154,13 @@ State Board,Mississippi,Mississippi State Board of Contractors
 State University Extension,Mississippi,Mississippi State University Extension 
 State University Extension,Michigan,Michigan State University Extension 
 State University Extension,Montana,Montana State University Extension 
-Travel Tourism,None,Travel and Tourism Site for the Northern Mariana Islands 
-Tourism Site,None,Travel and Tourism Site for the Northern Mariana Islands 
-Travel Tourism Site,None,Travel and Tourism Site for the Northern Mariana Islands 
 Carolina Department,North Carolina,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services "
 North Carolina Department,North Carolina,"Multi-Hazard Threat Database, Emergency Programs Division, North Carolina Department of Agriculture and Consumer Services "
 North Carolina Division,North Carolina,North Carolina Division of Air Quality 
-Department Education,None,"NC Assistive technology Program - Receives grant funding under Public Law 108-364  through the Rehabilitation Services Administration, U.S. Department of Education, and is administered by the N.C. Department of Health and Human Services, Division of Vocational Rehabilitation Services "
-NC Department,None,"NC Assistive technology Program - Receives grant funding under Public Law 108-364  through the Rehabilitation Services Administration, U.S. Department of Education, and is administered by the N.C. Department of Health and Human Services, Division of Vocational Rehabilitation Services "
-Department Health Human,None,"NC Assistive technology Program - Receives grant funding under Public Law 108-364  through the Rehabilitation Services Administration, U.S. Department of Education, and is administered by the N.C. Department of Health and Human Services, Division of Vocational Rehabilitation Services "
-Health Human Services,None,"NC Assistive technology Program - Receives grant funding under Public Law 108-364  through the Rehabilitation Services Administration, U.S. Department of Education, and is administered by the N.C. Department of Health and Human Services, Division of Vocational Rehabilitation Services "
 North Carolina Board,North Carolina,North Carolina Board of Architecture 
-NC Board,None,NC Board of Athletic Trainers Examiners 
 North Carolina Board,North Carolina,North Carolina Board of Dietetics/Nutrition   
-NC Board,None,NC Board of Examiners of electrical contractors 
-Board Examiners,None,NC Board of Examiners of electrical contractors 
-NC Board,None,NC Board of Examiners for engineers and surveyors 
-Board Examiners,None,NC Board of Examiners for engineers and surveyors 
-NC Board,None,NC Board of Nursing Homes Administrators 
-NC Board,None,NC Board of Funeral Services 
-NC Board,None,NC Board of Law Examiners 
 North Carolina Board,North Carolina,The North Carolina Board for the Licensing of Geologists  
 North Carolina Board,North Carolina,The North Carolina Board of Licensed Professional Counselors 
-NC Board,None,NC Board of Examiners for Speech Language and Pathologist & Audiologist n  
-Board Examiners,None,NC Board of Examiners for Speech Language and Pathologist & Audiologist n  
-NC Board,None,Welcome to the NC Board of Landscape Architects 
-NC Board,None,NC Board of Nursing 
-NC Board,None,NC Board of Pharmacy 
 North Carolina Board,North Carolina,The North Carolina Board of Occupational Therapy 
 State North Carolina,North Carolina,The Board of Podiatry Examiners for the State of North Carolina  
 Carolina Department,North Carolina,"Rail Division, North Carolina Department of Transportation "
@@ -206,12 +173,8 @@ Department Cultural Resources,North Carolina,"North Carolina Civil War Sesquicen
 North Carolina Office,North Carolina,North Carolina Office of the Commissioner of Banks (NCCOB) 
 Carolina Department,North Carolina,North Carolina Department of Commerce 
 North Carolina Department,North Carolina,North Carolina Department of Commerce 
-NC Department,None,N.C. Department of Environment and Natural Resources 
 State Board,North Carolina,North Carolina State Board of Dental Examiners 
 North Carolina State,North Carolina,North Carolina State Board of Dental Examiners 
-NC Department,None," Juvenile Justice section of the N.C. Department of Public Safety, Division of Adult Correction and Juvenile Justice.  "
-Department Public,None," Juvenile Justice section of the N.C. Department of Public Safety, Division of Adult Correction and Juvenile Justice.  "
-NC Department Public,None," Juvenile Justice section of the N.C. Department of Public Safety, Division of Adult Correction and Juvenile Justice.  "
 Carolina Department,North Carolina,North Carolina Department of Insurance 
 North Carolina Department,North Carolina,North Carolina Department of Insurance 
 North Carolina Office,North Carolina,The North Carolina Office of EMS 
@@ -235,20 +198,12 @@ State Board,North Carolina,he North Carolina State Board of Examiners in Optomet
 Board Examiners,North Carolina,he North Carolina State Board of Examiners in Optometry 
 North Carolina State,North Carolina,he North Carolina State Board of Examiners in Optometry 
 State Board Examiners,North Carolina,he North Carolina State Board of Examiners in Optometry 
-NC Department,None,"NC Physical Activity and Nutrition Branch (NC PAN), NC Department of Public Health See historical snapshot at: http://web.archive.org/web/20130128034822/http://www.ncpanbranch.com/  "
-Department Public,None,"NC Physical Activity and Nutrition Branch (NC PAN), NC Department of Public Health See historical snapshot at: http://web.archive.org/web/20130128034822/http://www.ncpanbranch.com/  "
-Public Health,None,"NC Physical Activity and Nutrition Branch (NC PAN), NC Department of Public Health See historical snapshot at: http://web.archive.org/web/20130128034822/http://www.ncpanbranch.com/  "
-NC Department Public,None,"NC Physical Activity and Nutrition Branch (NC PAN), NC Department of Public Health See historical snapshot at: http://web.archive.org/web/20130128034822/http://www.ncpanbranch.com/  "
 North Carolina Board,North Carolina,The North Carolina Board of Physical Therapy Examiners 
 North Carolina Office,North Carolina,"Historical Publications, North Carolina Office of Archives and History, Department of Cultural Resources -¬†www.ncpublications.com "
 Department Cultural Resources,North Carolina,"Historical Publications, North Carolina Office of Archives and History, Department of Cultural Resources -¬†www.ncpublications.com "
 Public Health,North Carolina,North Carolina Division of Public Health 
 North Carolina Division,North Carolina,North Carolina Division of Public Health 
 Division Public Health,North Carolina,North Carolina Division of Public Health 
-NC Department,None,"Radiation Protection Section, NC Department of Health and Human Services "
-Department Health Human,None,"Radiation Protection Section, NC Department of Health and Human Services "
-Health Human Services,None,"Radiation Protection Section, NC Department of Health and Human Services "
-State Board,None,NC State Board of Environmental Health Specialist Examiners 
 NC Department,North Carolina,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health "
 Department Public,North Carolina,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health "
 Public Health,North Carolina,"North Carolina Sickle Cell Syndrome Program, NC Department of Public Health "
@@ -257,9 +212,6 @@ Carolina Department,North Carolina,The North Carolina State Improvement Project 
 Department Public,North Carolina,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). 
 North Carolina State,North Carolina,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). 
 North Carolina Department,North Carolina,The North Carolina State Improvement Project (NC SIP ). NC SIP is a program in the Exceptional Children Division of the North Carolina Department of Public Instruction (NC DPI). 
-NC Department,None,"Tobacco Free Schools, NC Department of Health and Human Services "
-Department Health Human,None,"Tobacco Free Schools, NC Department of Health and Human Services "
-Health Human Services,None,"Tobacco Free Schools, NC Department of Health and Human Services "
 State North Carolina,North Carolina,State of North Carolina Japan Office 
 Carolina Department,North Carolina,North Carolina Department of State Treasurer 
 North Carolina Department,North Carolina,North Carolina Department of State Treasurer 
@@ -282,9 +234,6 @@ Economic Development,New Jersey,New Jersey Economic Development Authority
 Development Authority,New Jersey,New Jersey Economic Development Authority 
 Economic Development Authority,New Jersey,New Jersey Economic Development Authority 
 Public Health,New Mexico,New Mexico Environmental Public Health Tracking 
-Public Health,None,"Nutrition Services Branch, Women's and Children's Health, NC Division of Public Health, NCDepartment of Health and Human Services  "
-Division Public Health,None,"Nutrition Services Branch, Women's and Children's Health, NC Division of Public Health, NCDepartment of Health and Human Services  "
-Health Human Services,None,"Nutrition Services Branch, Women's and Children's Health, NC Division of Public Health, NCDepartment of Health and Human Services  "
 Department Health Human,Nevada,"Aging and Disability Services Division, Department of Health and Human Services, State of Nevada "
 Health Human Services,Nevada,"Aging and Disability Services Division, Department of Health and Human Services, State of Nevada "
 York State,New York,New York State Conference of Mayors and Municipal Officials (NYCOM) 
@@ -307,15 +256,10 @@ Washington State,Washington,Washington State Potato Commission
 Carolina Department,North Carolina,"Queen Anne's Revenge, a project of the http://www.qaronline.org/ North Carolina Department of Cultural Resources to educate the next generation on colonial life "
 North Carolina Department,North Carolina,"Queen Anne's Revenge, a project of the http://www.qaronline.org/ North Carolina Department of Cultural Resources to educate the next generation on colonial life "
 Department Cultural Resources,North Carolina,"Queen Anne's Revenge, a project of the http://www.qaronline.org/ North Carolina Department of Cultural Resources to educate the next generation on colonial life "
-NC Department,None,"Ready NC, NC Department of Public Safety "
-Department Public,None,"Ready NC, NC Department of Public Safety "
-NC Department Public,None,"Ready NC, NC Department of Public Safety "
-State Board,None,The State Board of Refrigeration Examiners 
 Department Education,Florida,Division of Vocational Rehabilitation - Florida Department of Education 
 State Board,Florida,"Florida State Board of Administration, created by the Florida Constitution and is governed by a three-member Board of Trustees (Trustees), comprised of the Governor as Chair, the Chief Financial Officer and the Attorney General. "
 Washington State,Washington,Washington State Board for Community and Technical Colleges 
 State Board,Washington,Washington State Board for Community and Technical Colleges 
-National Guard,None,SC National Guard 
 Carolina Department,North Carolina,"School Planning Section, North Carolina Department of Public Instruction "
 Department Public,North Carolina,"School Planning Section, North Carolina Department of Public Instruction "
 North Carolina Department,North Carolina,"School Planning Section, North Carolina Department of Public Instruction "
@@ -324,9 +268,6 @@ Department Transportation,South Dakota,South Dakota Department of Transportation
 Development Authority,South Dakota,South Dakota Housing Development Authority 
 Department Transportation,Arizona,"Authorized Service Website for the Arizona Department of Transportation, Motor Vehicle Division "
 North Carolina State,North Carolina,North Carolina State Health Plan for Teachers and State Employees 
-Public Health,None,"State Laboratory of Public Health, NC Division of Public Health "
-Public Health,None,"State Laboratory of Public Health, NC Division of Public Health "
-Division Public Health,None,"State Laboratory of Public Health, NC Division of Public Health "
 York State,Pennsylvania,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. "
 New York State,Pennsylvania,"Susquehanna River Basin Commission -¬†The Susquehanna River Basin Compact, was signed into law on December 24, 1970. The Compact, as adopted by the Congress of the United States, and the legislatures of New York State, Pennsylvania and Maryland, provides the mechanism to guide the conservation, development, and administration of the water resources of the vast river basin. "
 state agencies,Alaska,"*state.ak.us pattern to include Alaska state agencies, such as those at: https://www.google.com/#q=site:state.ak.us  "
@@ -339,7 +280,6 @@ state agencies at,California,"*state.ca.us pattern to include California state a
 state agencies,Florida,"*state.fl.us pattern to include Florida state agencies, such as those at: https://www.google.com/#q=site:state.fl.us   "
 state agencies at,Florida,"*state.fl.us pattern to include Florida state agencies, such as those at: https://www.google.com/#q=site:state.fl.us   "
 state agencies,Maryland,"State website is at http://www.maryland.gov. state.md.us pattern to include Maryland state agencies, such as those at https://www.google.com/#q=site:state.md.us. "
-state agencies,None,*.state.ne.us pattern to include several state agencies. 
 state agencies,New Jersey,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  "
 state agencies at,New Jersey,"http://www.state.nj.us/ and http://www.nj.gov both resolve to the same site. n*state.nj.us pattern to include New Jersey state agencies, such as those at: https://www.google.com/#q=site:state.nj.us  "
 National Guard,Tennessee,Tennessee National Guard 
@@ -406,9 +346,6 @@ Travel Tourism Sites,Delaware,Travel and Tourism Sites for Delaware
 Travel Tourism,Florida,Travel and Tourism Site for Florida 
 Tourism Site,Florida,Travel and Tourism Site for Florida 
 Travel Tourism Site,Florida,Travel and Tourism Site for Florida 
-Travel Tourism,None,Travel and Tourism Sites for Guam 
-Tourism Sites,None,Travel and Tourism Sites for Guam 
-Travel Tourism Sites,None,Travel and Tourism Sites for Guam 
 Travel Tourism,Idaho,Travel and Tourism Site for Idaho 
 Tourism Site,Idaho,Travel and Tourism Site for Idaho 
 Travel Tourism Site,Idaho,Travel and Tourism Site for Idaho 
@@ -445,9 +382,6 @@ Travel Tourism Site,Utah,Travel and Tourism Site for Utah
 National Guard,Vermont,Vermont National Guard 
 Washington State,Washington,Washington State Lottery 
 Washington State,Washington,Washington State Seed Potato Commission 
-Travel Tourism,None,Travel and Tourism Site for the District of Columbia 
-Tourism Site,None,Travel and Tourism Site for the District of Columbia 
-Travel Tourism Site,None,Travel and Tourism Site for the District of Columbia 
 National Guard,Washington,Washington Air National Guard 
 National Guard,Washington,Washington Army National Guard 
 National Guard,Washington,Washington National Guard 
@@ -455,8 +389,6 @@ Washington State,Washington,Washington State Wine Commission
 North Carolina Office,North Carolina,"The Way We Lived in North Carolina, presented by http://www.ah.dcr.state.nc.us/ The North Carolina Office of Archives & History. "
 Cooperative Extension,Rhode Island,University of Rhode Island Cooperative Extension 
 Economic Development,Washington,Washington Economic Development Finance Authority 
-Public Health,None,"Women's Health Branch, NC Division of Public Health "
-Division Public Health,None,"Women's Health Branch, NC Division of Public Health "
 Economic Development,Wisconsin,Wisconsin Housing and Economic Development Authority 
 Development Authority,Wisconsin,Wisconsin Housing and Economic Development Authority 
 Economic Development Authority,Wisconsin,Wisconsin Housing and Economic Development Authority 

@@ -35,8 +35,6 @@ def ngramcreator(strings,n_grams):
         return finallist
 
 def n_grams():
-    bigram_global ={}
-    trigram_global ={}
     bidict = {}
     tridict = {}
     data = pd.read_csv('./files/3_govt_urls_state_only.csv')
@@ -61,16 +59,10 @@ def n_grams():
     templist1 = sorted(bidict.items(),key=takeSecond,reverse=True)[:20]
     templist2 = sorted(tridict.items(),key=takeSecond,reverse=True)[:20]
     for item in templist1:
-        bigram_global[item[0]]=item[1]
+        n_grams_40.append(item[0])
     
     for item in templist2:
-        trigram_global[item[0]]=item[1]
-    
-    for items in bigram_global.keys():
-        n_grams_40.append(items)
-
-    for items in trigram_global.keys():
-        n_grams_40.append(items)
+        n_grams_40.append(item[0])
     
 
 def main():

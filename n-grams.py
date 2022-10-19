@@ -39,11 +39,11 @@ def stopwordsremover(sentence):
 
 def remove_punctuation(sentence):
     punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-    finalsentence=" "
+    finalsentence=""
     for item in sentence:
         if item not in punc:
             finalsentence+=item
-    return finalsentence.strip()
+    return finalsentence
 
 
 def ngramcreator(strings,n_grams):

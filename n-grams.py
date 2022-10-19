@@ -87,17 +87,12 @@ def main():
         nostopword_note = ' '.join(stopwordsremover(note))
         state = stateExtracter(nostopword_note)
         if state!=None:
-            for item in data:
-                note = item.split("--")[0]
-                nostopword_note = ' '.join(stopwordsremover(note))
-                state = stateExtracter(nostopword_note)
-                if state!=None:
-                    for i in range(2,4):
-                        n_gram = ngramcreator(nostopword_note,i)
-                        for item in n_gram:
-                            if item in n_grams_40:
-                                if item not in keylist[note]:
-                                    keylist[note].append(item)
+            for i in range(2,4):
+                n_gram = ngramcreator(nostopword_note,i)
+                for item in n_gram:
+                    if item in n_grams_40:
+                        if item not in keylist[note]:
+                            keylist[note].append(item)
 
     with open('n_output.csv','w', encoding='UTF8') as file:
         writer = csv.writer(file)

@@ -1,11 +1,19 @@
 import pandas as pd
 import csv
 from collections import defaultdict
+import json
 
 n_grams_40 = []
+statelist= []
 
 with open('./files/stopwords.txt', 'r')as file:
     lines = [line.rstrip('\n') for line in file]
+
+with open('./files/states.json')as file:
+    statedict=json.load(file)
+
+for item in statedict:
+    statelist.append(item['State'])
 
 def takeSecond(elem):
     return elem[1]
@@ -46,20 +54,19 @@ def n_grams():
         for number in range(2,4):
             n_gram = ngramcreator(nostopword_note,number)
             for i in n_gram:
-                if number==2:
-                    bidict[i]+=1
-                else:
-                    tridict[i]+=1
+                if i not in statelist:
+                    if number==2:
+                        bidict[i]+=1
+                    else:
+                        tridict[i]+=1
 
     templist1 = sorted(bidict.items(),key=takeSecond,reverse=True)[:20]
     templist2 = sorted(tridict.items(),key=takeSecond,reverse=True)[:20]
-
     for item in templist1:
         n_grams_40.append(item[0])
     
     for item in templist2:
         n_grams_40.append(item[0])
-
 
 def main():
     n_grams()

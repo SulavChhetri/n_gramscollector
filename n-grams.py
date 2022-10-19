@@ -1,5 +1,6 @@
 import pandas as pd
 import csv
+from collections import defaultdict
 
 n_grams_40 = []
 
@@ -35,8 +36,8 @@ def ngramcreator(strings,n_grams):
         return finallist
 
 def n_grams():
-    bidict = {}
-    tridict = {}
+    bidict = defaultdict(lambda:0)
+    tridict = defaultdict(lambda:0)
     data = pd.read_csv('./files/3_govt_urls_state_only.csv')
     data = data['Note']
     for item in data:
@@ -63,7 +64,7 @@ def n_grams():
     
     for item in templist2:
         n_grams_40.append(item[0])
-    
+
 
 def main():
     n_grams()

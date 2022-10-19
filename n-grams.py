@@ -48,7 +48,6 @@ def n_grams():
             for i in n_gram:
                 if number==2:
                     bidict[i]+=1
-
                 else:
                     tridict[i]+=1
 

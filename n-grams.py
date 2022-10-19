@@ -82,6 +82,7 @@ def main():
     data = pd.read_csv('./files/3_govt_urls_state_only.csv')
     data = data['Note']
     keylist= defaultdict(list)
+    statelist = defaultdict(str)
     for item in data:
         note = item.split("--")[0]
         nostopword_note = ' '.join(stopwordsremover(note))
@@ -93,12 +94,13 @@ def main():
                     if item in n_grams_40:
                         if item not in keylist[note]:
                             keylist[note].append(item)
+                            statelist[note]=state
 
     with open('n_output.csv','w', encoding='UTF8') as file:
         writer = csv.writer(file)
         writer.writerow(["Topic","State","Note"])
         for key in keylist.keys():
-            writer.writerow([f"{keylist[key]}",f"{state}",f"{key}"])
+            writer.writerow([f"{keylist[key]}",f"{statelist[key]}",f"{key}"])
 
 
 main()
